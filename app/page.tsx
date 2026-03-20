@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import AboutSection from "./components/AboutSection";
 import CategoryGrid from "./components/CategoryGrid";
 import MorePerspectives from "./components/MorePerspectives";
+import PreFooter from "./components/PreFooter";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,8 @@ export default function Home() {
     <AboutSection/>
     <CategoryGrid/>
     <MorePerspectives/>
+    <hr className="relative top-44 mx-10 border-[#d6bfb0]" />
+    <PreFooter/>
   </main>
     </>
   );
