@@ -9,7 +9,7 @@ export default function Header(): JSX.Element {
       <img
         src="/header.jpg"
         alt="Header"
-        className="absolute inset-0 w-full h-full object-left object-cover"
+        className="absolute inset-0 w-full h-full object-center object-cover"
       />
 
       {/* DARK OVERLAY (optional but recommended) */}
