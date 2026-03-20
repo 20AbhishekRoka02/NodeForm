@@ -2,19 +2,19 @@ import { JSX } from "react";
 
 export default function AboutSection(): JSX.Element {
   return (
-    <section className="px-6 md:px-10 lg:px-20 py-16 md:py-24 bg-white text-black">
+    <section className="px-6 md:px-10 lg:px-20 py-16 md:py-24 text-black">
       
       <div className="flex flex-col md:flex-row gap-10 md:gap-20">
         
         {/* LEFT: TITLE */}
         <div className="md:w-1/2">
-          <h2 className="text-3xl md:text-5xl font-semibold leading-tight tracking-tight">
+          <h2 className="text-3xl md:text-5xl font-semibold leading-tight tracking-tight text-[#583016]">
             A Brand Born from Passion for Design
           </h2>
         </div>
 
         {/* RIGHT: DESCRIPTION */}
-        <div className="md:w-1/2 text-gray-600 text-base md:text-lg leading-relaxed space-y-4">
+        <div className="md:w-1/2 text-[#583016] md:text-xl text-lg leading-relaxed space-y-4">
           
           <p>
             At Nordform, we believe in the power of simplicity and functionality,

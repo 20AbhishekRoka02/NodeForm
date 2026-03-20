@@ -17,7 +17,7 @@ const categories: Category[] = [
 
 export default function CategoryGrid(): JSX.Element {
   return (
-    <section className="px-0 md:px-0 lg:px-0 py-16 md:py-24 bg-white">
+    <section className="px-0 md:px-0 lg:px-0 py-16 md:py-24">
       
       {/* GRID */}
       <div className="grid grid-cols-2 md:grid-cols-3 border border-gray-300">
@@ -37,7 +37,7 @@ export default function CategoryGrid(): JSX.Element {
             />
 
             {/* TITLE */}
-            <h3 className="text-lg font-medium text-gray-800 group-hover:underline">
+            <h3 className="text-lg md:text-xl font-medium text-[#583016] group-hover:underline">
               {category.title}
             </h3>
 
