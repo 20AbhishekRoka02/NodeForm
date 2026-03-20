@@ -9,7 +9,7 @@ export default function Header(): JSX.Element {
       <img
         src="/header.jpg"
         alt="Header"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-left object-cover"
       />
 
       {/* DARK OVERLAY (optional but recommended) */}
@@ -24,7 +24,7 @@ export default function Header(): JSX.Element {
       <div className="absolute inset-0 flex items-center justify-end px-20 z-10">
         <div className="max-w-xl text-right">
           <h1 className="text-white font-semibold leading-[1.1] tracking-tight 
-               text-5xl md:text-6xl lg:text-7xl xl:text-8xl  ">
+               text-5xl md:text-6xl lg:text-7xl xl:text-8xl animate-fadeIn ">
             Timeless Furniture,
             <br />
             Made to Last
