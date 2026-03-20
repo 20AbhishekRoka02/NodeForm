@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 export default function PreFooter(): JSX.Element {
   return (
-    <div className="relative w-auto h-screen overflow-hidden top-56 mx-10">
+    <div className="relative w-auto h-screen overflow-hidden mx-10">
       
       {/* BACKGROUND IMAGE */}
       <img

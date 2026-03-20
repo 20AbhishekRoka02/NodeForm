@@ -18,7 +18,7 @@ export default function Navbar(): JSX.Element {
       <div className="flex justify-between items-center py-6 md:py-10 text-white">
         
         {/* LOGO */}
-        <h1 className="text-xl md:text-2xl font-semibold cursor-pointer">
+        <h1 className="text-xl md:text-3xl font-semibold cursor-pointer">
           Nordform
         </h1>
 
